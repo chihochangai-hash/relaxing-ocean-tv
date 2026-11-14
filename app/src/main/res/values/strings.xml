@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">海洋之歌</string>
+    <string name="page_error">網頁打不開，按中鍵再試</string>
+    <string name="no_web">這台電視沒有網頁元件</string>
+</resources>

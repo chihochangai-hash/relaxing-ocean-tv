@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Ocean" parent="@android:style/Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowBackground">#041018</item>
+        <item name="android:colorBackground">#041018</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowSwipeToDismiss">false</item>
+    </style>
+</resources>
