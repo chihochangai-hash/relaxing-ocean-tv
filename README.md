@@ -2,21 +2,25 @@
 
 Android TV app for [Relaxing Ocean](https://relaxingocean.cc.cd/). It opens the live page full screen, and it can also run as the television screensaver.
 
-The pictures below are the live website. The left clock is Taiwan time. Morning is 08:00, evening is 20:00.
+The pictures below are the live website. The left clock is Taiwan time. The morning picture is 09:22, and the evening picture is 19:21.
 
 ## Morning
 
-![Morning at 08:00](docs/morning.png)
+![Morning at 09:22, whale underwater](docs/morning.png)
 
 ## Evening
 
-![Evening at 20:00](docs/evening.png)
+![Evening at 19:21, whale at the surface](docs/evening.png)
+
+## Language
+
+The page follows the browser language. Traditional Chinese is used when that language starts with zh. English is used for every other language. There is no language button on the page. The television app shows the language set on the television.
 
 ## How to use the website
 
 Open https://relaxingocean.cc.cd/. The opening screen enters the ocean by itself after about five seconds. Click it to enter sooner.
 
-The time field under the clock changes the scene. Choose a morning hour or an evening hour. 現在 returns to the current Taiwan time.
+The time field under the clock changes the scene. Choose a morning hour or an evening hour. Now returns to the current Taiwan time. On a Chinese page that button says 現在.
 
 Top right, from left to right:
 
@@ -27,7 +31,7 @@ Top right, from left to right:
 - Play: pause or resume
 - Speaker and slider: mute and volume
 
-The list on the right turns creatures, boats, and the island on or off. The buttons along the bottom play one action: 巡航, 睡眠, 漂休, 探頭, 胸鰭, 尾鰭, 下潛, 躍出, 磷蝦, 側滾, 螺旋, 換氣.
+The list on the right turns creatures, boats, and the island on or off. The buttons along the bottom play one action: Cruise, Sleep, Log, Spyhop, Pec, Tail, Dive, Breach, Krill, Roll, Spin, Breath. On a Chinese page those buttons are 巡航, 睡眠, 漂休, 探頭, 胸鰭, 尾鰭, 下潛, 躍出, 磷蝦, 側滾, 螺旋, 換氣.
 
 ## Television remote
 
@@ -58,7 +62,13 @@ Install `app/build/outputs/apk/debug/app-debug.apk` on an Android TV.
 
 ## 操作說明
 
-上面兩張是網站畫面。左上時鐘是台灣時間，早上是 08:00，晚上是 20:00。
+上面兩張是網站畫面。左上時鐘是台灣時間，早上那張是 09:22，晚上那張是 19:21。
+
+## 語系
+
+畫面跟著瀏覽器語系。語系是中文時用繁體中文，其他語系用英文。頁面上沒有切換語言的按鈕。電視 app 顯示電視設定的語系。
+
+英文時，時鐘寫 Taiwan，回到目前時間的按鈕是 Now。下方按鈕是 Cruise、Sleep、Log、Spyhop、Pec、Tail、Dive、Breach、Krill、Roll、Spin、Breath。
 
 打開 https://relaxingocean.cc.cd/ 。開始畫面約五秒後自己進入海洋，也可以直接點進去。
 
