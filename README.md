@@ -50,6 +50,14 @@ Back again leaves the app.
 
 On the television, open Settings, Device Preferences, Screensaver, and choose 海洋之歌. The picture stays bright. Any remote key leaves the screensaver.
 
+## Download
+
+The v1.0 release is one signed universal APK. This app has no native code, so the same package runs on every Android TV CPU.
+
+https://github.com/chihochangai-hash/relaxing-ocean-tv/releases/download/v1.0/relaxing-ocean-tv-1.0.apk
+
+It is an Android TV app. A television that already has a debug build of 海洋之歌 must remove that copy before installing this one, because the signatures differ.
+
 ## Build
 
 Android SDK 35, Java 17, Gradle 8.9.
@@ -58,7 +66,15 @@ Android SDK 35, Java 17, Gradle 8.9.
 gradlew assembleDebug
 ```
 
-Install `app/build/outputs/apk/debug/app-debug.apk` on an Android TV.
+`gradlew assembleRelease` signs the package when `keystore.properties` is present. That file and the keystore stay off the repository.
+
+## 下載
+
+v1.0 是一隻已簽名的通用 APK，沒有依 CPU 拆開。這支 app 沒有原生程式庫，同一包可用在各種 Android TV。
+
+https://github.com/chihochangai-hash/relaxing-ocean-tv/releases/download/v1.0/relaxing-ocean-tv-1.0.apk
+
+這是 Android TV 用的 app。電視上如果已經裝過偵錯版的海洋之歌，要先移除再裝這一包，因為簽名不同。
 
 ## 操作說明
 
